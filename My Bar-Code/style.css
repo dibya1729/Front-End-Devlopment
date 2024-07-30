@@ -1,0 +1,39 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 67, 173, 0.483);
+}
+
+.QR {
+    text-align: center;
+    height: 489px;
+    width: 299px;
+    background-color:white;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;   
+    left:40%;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+
+
+h2{
+    color: #333;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #555;
+}
+.parent{
+    font-family: 'Times New Roman', Times, serif;
+}
+.parent1{
+    font-family: 'Times New Roman', Times, serif ;
+}
