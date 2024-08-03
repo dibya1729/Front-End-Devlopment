@@ -1,6 +1,7 @@
 body{
 font-family: "Robot",sans-serif;
 background-image: url(/img/background1.jpg);
+background-position: fixed;
 background-attachment: fixed;
 background-size: cover;
 }
@@ -23,7 +24,11 @@ background-size: cover;
 .navigation .link1{
     color:rgb(255, 255, 255);
 }
-.navigation .link-activi{
+.navigation .link-active{
+    font-weight: bold;
+}
+.navigation .link-active:hover{
+    color: rgb(41, 41, 41);
     font-weight: bold;
 }
 .nav-brand a{
@@ -32,7 +37,7 @@ background-size: cover;
 }
 .list-item-inline a{
     text-decoration: none;
-    font-family:Arial Black;
+    font-family:Arial rgb(85, 85, 85);
 }
 .img{
     background-size: cover;
@@ -77,6 +82,10 @@ background-size: cover;
     margin-left: 200px;
     margin-left: 5px;
 }
+.link-1:hover{
+    background-color: rgb(202, 67, 67);
+    color: white;
+}
 .link-2{
     background-color:white ;
     max-width: 100px;
@@ -84,4 +93,8 @@ background-size: cover;
     color:rgb(202, 28, 28);
     margin: 1rem auto;
     border: 50px;
+}
+.link-2:hover{
+    background-color: rgb(202, 67, 67);
+    color: white;
 }
